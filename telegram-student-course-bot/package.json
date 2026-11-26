@@ -1,0 +1,12 @@
+{
+  "name": "telegram-student-course-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram course access and payment verification bot",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node -e \"console.log('Deploy this project to Vercel; do not run a polling bot locally.')\"" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "telegraf": "^4.16.3"
+  }
+}
